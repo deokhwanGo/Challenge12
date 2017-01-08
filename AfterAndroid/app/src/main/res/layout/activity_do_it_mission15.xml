@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.example.gdh.afterandroid.CoverFlow
+        android:layout_height="160dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/coverflow"/>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+    <ImageView android:layout_height="fill_parent"
+        android:layout_width="140dp"
+        android:id="@+id/bookImage"
+        android:scaleType="centerInside"/>
+        <LinearLayout android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp">
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/bookName"
+        android:textColor="#ffff7712"
+        android:textSize="14dp"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/bookAuthor"
+        android:textColor="#ffff7712"
+        android:textSize="12dp"
+        android:layout_marginTop="8dp"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/bookPublisher"
+        android:textColor="#ffff7712"
+        android:textSize="12dp"
+        android:layout_marginTop="8dp"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/bookDate"
+        android:textColor="#ffff7712"
+        android:textSize="12dp"
+        android:layout_marginTop="8dp"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/bookPrice"
+        android:textColor="#ffff7712"
+        android:textSize="12dp"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

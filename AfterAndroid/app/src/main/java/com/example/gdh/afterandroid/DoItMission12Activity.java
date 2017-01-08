@@ -21,6 +21,7 @@ import android.provider.ContactsContract.CommonDataKinds.Photo;
 import android.provider.ContactsContract.Contacts;
 import android.provider.ContactsContract.Data;
 import android.provider.MediaStore;
+import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -524,9 +525,19 @@ public class DoItMission12Activity extends AppCompatActivity {
 		}
 
 
+
+
     }
 
-    protected Bitmap loadThumbnailImage( String url ) {
+	@Override
+	public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults)
+	{
+		super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
+		Log.d("aaa",requestCode+"/"+permissions+"/"+ grantResults);
+	}
+
+	protected Bitmap loadThumbnailImage(String url ) {
     	int originalImageId = Integer.parseInt(url.substring(url.lastIndexOf("/") + 1, url.length()));
 
     	return MediaStore.Images.Thumbnails.getThumbnail(getContentResolver(), originalImageId, MediaStore.Images.Thumbnails.MICRO_KIND, null);

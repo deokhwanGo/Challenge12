@@ -1,4 +1,56 @@
 <resources>
     <string name="app_name">AfterAndroid</string>
     <string name="title_activity_ex06_1">Ex06_1</string>
+    <string name="hello">Hello World, DoItMission10Activity!</string>
+
+
+    <string name="book01_name">Do it! 안드로이드 앱 프로그래밍</string>
+
+    <string name="book01_author">정재곤</string>
+
+    <string name="book01_publisher">이지스퍼블리싱</string>
+
+    <string name="book01_date">2011년 12월</string>
+
+    <string name="book01_price">40,000원</string>
+
+    <string name="book02_name">Programming Android</string>
+
+    <string name="book02_author">Mednieks, Zigurd</string>
+
+    <string name="book02_publisher">Oreilly Associates Inc</string>
+
+    <string name="book02_date">2011년 04월</string>
+
+    <string name="book02_price">62,080원</string>
+
+    <string name="book03_name">센차터치 모바일 프로그래밍</string>
+
+    <string name="book03_author">이병옥,최성민 공저</string>
+
+    <string name="book03_publisher">에이콘출판사</string>
+
+    <string name="book03_date">2011년 10월</string>
+
+    <string name="book03_price">40,000원</string>
+
+    <string name="book04_name">시작하세요! 안드로이드 게임 프로그래밍</string>
+
+    <string name="book04_author">마리오 제흐너 저</string>
+
+    <string name="book04_publisher">위키북스</string>
+
+    <string name="book04_date">2011년 09월</string>
+
+    <string name="book04_price">36,000원</string>
+
+    <string name="book05_name">실전! 안드로이드 시스템 프로그래밍 완전정복</string>
+
+    <string name="book05_author">박선호,오영환 공저</string>
+
+    <string name="book05_publisher">DW Wave</string>
+
+    <string name="book05_date">2010년 10월</string>
+
+    <string name="book05_price">28,000원</string>
 </resources>
